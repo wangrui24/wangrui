@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Finish all the 580 sequence course :sparkles: :smile:
+Finish all the 580 sequence courses! :sparkles: :smile:

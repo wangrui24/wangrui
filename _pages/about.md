@@ -19,4 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My name is Rui Wang. I am a first-year PhD student in UW biostat.
+I am a first year PhD student in Biostatistics, University of Washington. I am working with Dr. Robyn McClelland as a research assistant at the Collaborative Health Studies Coordinating Center.
+
+Prior to coming to UW,  I obtained my master degree from the Peking University. I hold bachelor degrees in medicine and economics from Peking University. I am interested in causal inference, and its applications in public health and social science.
+
+I am originally from Duanyuan, a small town in Huaibei, Anhui province, Eastern China. When not working, I enjoy playing tennis, watching movies (especially art movies) and spending time with friends.

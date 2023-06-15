@@ -1,110 +1,119 @@
 ---
 layout: post
-title: a post with custom blockquotes
+title: 生物统计课程学习经验总结
 date: 2023-05-12 15:53:00-0400
 description: an example of a blog post with custom blockquotes
 categories: sample-posts blockquotes
 giscus_comments: true
 related_posts: true
 ---
-This post shows how to add custom styles for blockquotes. Based on [jekyll-gitbook](https://github.com/sighingnow/jekyll-gitbook) implementation.
+## 生物统计课程学习经验总结
 
-We decided to support the same custom blockquotes as in [jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html), which are also found in a lot of other sites' styles. The styles definitions can be found on the [_base.scss](https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss) file, more specifically:
+### -1. 前言
+此文的主要写作对象是北京大学公共卫生学院有志于学习生物统计学以及有意向在生物统计学科读博深造的同学。如果你是国内其他学校生物医学类专业的本科生且对生物统计感兴趣，此文可能对你也会有所帮助。本文也会略微涉及到和北美生统PhD申请有关的内容，但是由于中文互联网上已经有较好的[选校指南](https://zhuanlan.zhihu.com/p/475982417)，在这方面不会做过多叙述。
 
-```scss
-/* Tips, warnings, and dangers */
-.post .post-content blockquote {
-    &.block-tip {
-    border-color: var(--global-tip-block);
-    background-color: var(--global-tip-block-bg);
+生物统计一直是公共卫生学科的重要组成部分。但是在国内并没有“生物统计”这门二级学科，而是一直以来和流行病学合并在一起称为“流行病学与卫生统计学”，隶属于“公共卫生与预防医学”一级学科。北京大学的生物统计系也仅是4年前刚刚建立。
 
-    p {
-      color: var(--global-tip-block-text);
-    }
+理论上说，公共卫生学院的学弟学妹的背景应该是比较match生物统计的硕士或博士项目的。但是实际情况远远如此，这其中很大一部分原因与我们的培养方案有关系：首先，我们的本科是不分方向的，而且绝大多数课程都没有选择的自由，这就导致本专业的本科生反而无法在申请生物统计的硕博项目中取得优势；其次，专业课程的设置过于偏向医学。从大二到大四上学期，几乎整整两年半的时间都花在医学相关的课程上，而这些课程对于生物统计专业来说几乎“零帮助”（事实上对于其他二级学科也是如此）；最后，个人认为也是最重要的一点，我们的本科教学中数学和统计学课程的缺失导致如果同学们老老实实按照培养方案走，是完全达不到生物统计的硕士入学标准的。其实在现有培养方案的基础上只需加上“线性代数”和“概率统计”两门课，情况都会大大改善。我同其他公卫二级学科的同学交流的时候也能感觉到这两门课的用处很大，奈何就是没有。因此对于有志于走生统方向的同学来说（无论你是在北大生统继续就读还是申请国外的生统项目），一定程度的前置课程学习是非常重要的，否则可能甚至拿不到入场资格。
 
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-tip-block-title);
-    }
-  }
+作为北京大学生物统计系的在读研究生，今年又申请到了北美多家学校生物统计的PhD项目，深感这一路上的艰辛与不易。此外，过去的一到两年的时间里，也陆续有许多希望走生统道路的学弟学妹们来咨询我相关的事宜，这使我感觉有必要将自己关于课程学习的一些想法总结下来。但是请注意：以下的内容只是基于我个人的经验，并不一定适用于其他人，请综合多方面的信息渠道来选择最适合自己的路。
 
-  &.block-warning {
-    border-color: var(--global-warning-block);
-    background-color: var(--global-warning-block-bg);
 
-    p {
-      color: var(--global-warning-block-text);
-    }
 
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-warning-block-title);
-    }
-  }
+### -2. 什么是生物统计
+我想对于绝大多数本科的同学来说，这并不是一个容易回答的问题。耶鲁大学公共卫生学院的学生手册对生物统计学科的描述是这样的“Biostatistics involves the development and application of sound statistical and mathematical principles to research in the health sciences.”这里面有两个关键点，第一个是针对健康科学研究中的问题，发展新的统计方法；第二个是将统计学方法应用到健康科学中去。维基百科对生物统计一词的解释也是“Biostatistics (also known as biometry) are the development and application of statistical methods to a wide range of topics in biology.”同样也强调了“发展统计方法”和“应用统计方法”这个两个关键点。
 
-  &.block-danger {
-    border-color: var(--global-danger-block);
-    background-color: var(--global-danger-block-bg);
+我在日常里遇到的另一个问题是，流行病学与生物统计到底有什么区别。说实话我第一次被问到这个问题的时候，还是有些不知怎么回答的，因为在我的脑海中这两个学科完全不一样：本质上讲，流行病学是在研究医学问题，而生物统计是在研究统计问题，为什么会被放在一起比较呢？但是后来我发现了这个问题的缘由在于很多人对于统计的印象就是使用统计软件做一些数据分析，所以会产生这种误解。对此我觉得一个最好的区分方式是大概看看统计学四大和生物统计的顶级期刊《Biometrics》上的文章，并与流行病学的顶级期刊《American Journal of Epidemiology》里的文章做一下比较，相信你很快就能发现其中的差别。
 
-    p {
-      color: var(--global-danger-block-text);
-    }
+第二个问题是，生物统计和统计的区别在哪？说实话，这两者的区别确实要小很多，生物统计的培养和研究与统计都非常相似，生物统计学家与统计学家平时看的学术刊物绝大多数也是重叠的，但是我想区别还是有的，分为以下几点：首先，生物统计一般会有生物背景，但是统计学不一定有，统计学的背景可以来自经济学、天文学等各个学科；其次，统计可能会更理论些；最后，生物统计有一些特色的方向，比如临床试验、生存分析、统计遗传学等。但是总体来说我并不觉得这两个学科之间有本质的区别，只是侧重点不太一样（但其实也有很大的重叠）。
 
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--global-danger-block-title);
-    }
-  }
-}
-```
+第三个问题，生物统计都学些什么？了解一个学科的一个好办法就是看看这个学科的培养都囊括了哪些课程。在此可以参考[华盛顿大学生物统计系的课程设置](https://www.biostat.washington.edu/academics/phd/courses)，[哈佛大学生物统计系的课程设置](https://content.sph.harvard.edu/biostats/publications/handbook/greenbook.pdf)以及[约翰霍普金斯大学生物统计系的课程设置](https://e-catalogue.jhu.edu/public-health/departments/biostatistics/biostatistics-phd/#requirementstext)，这三家的生物统计系也是公认的实力最强的三家。
 
-A regular blockquote can be used as following:
+### -3. 课程学习
+我们在第一节中已经提到，我们的课程设置并没有提供给我们进一步学习生物统计所必须的知识储备，那么如果你将来想在生物统计方向读研/读博，势必需要多学一些东西。所幸的是，我们可以充分利用北大本部的课程资源和选课机会来对这方面进行弥补。我本人也在过去的几年内在北京大学本部修读了许多数学和统计学的课程，这些课程对我的申请帮助很大。证据之一是我在面试的时候，一个老师对我说“我对你学过测度论印象很深刻”。因此我会在下文着重介绍一下我上过的/或者我有所耳闻的一些课程。但是请大家注意，并不是修读了这些课程你就一定会被生物统计的硕士和博士项目录取，但是这些课程肯定是有帮助的（如果成绩还不错的话）。此外，[数院lty大佬的知乎回答](https://www.zhihu.com/question/34941826/answer/788612729)也很有参考价值。
 
-```markdown
-> This is a regular blockquote
-> and it can be used as usual
-```
+#### -3.1 数学课
+**数学分析**
+尽管我们公卫的培养方案里有高等数学C，但是这个还是远远不够的，数学分析非常建议去学一下。但是由于数院开设的数学分析可能难度会较大，而且时间成本较高（要上三学期），所以这门课亦可以自学（当然有条件的话还是选课效果更好）。一个很好的资源是北大工学院的[数学分析课程](https://www.bilibili.com/video/BV1T5411P7wi?spm_id_from=333.337.search-card.all.click)，使用的教材是张筑生的《数学分析新讲》。
 
-> This is a regular blockquote
-> and it can be used as usual
+**线性代数**
+请务必要选课，我当时选择的是国发院的线性代数B，所用教材为《简明线性代数》。时间和精力较为充裕的同学可以尝试高等代数（数院和工学院均有开设）。
 
-These custom styles can be used by adding the specific class to the blockquote, as follows:
+**概率统计**
+请务必要选课。时间和精力较为充裕的同学可以分别选修《概率论》和《数理统计》两门课程，但是因为只有数院开设（国发的不对其他学院开放）所以可能会压力较大。
 
-```markdown
-> ##### TIP
->
-> A tip can be used when you want to give advice
-> related to a certain content.
-{: .block-tip }
-```
+**随机过程**
+因为忌惮数院的难度所以我当时选秀了经院的随机过程，说实话经院的这门课课程内容不错，但是体验不是很好。使用的课本是Ross的《随机过程》。
 
-> ##### TIP
->
-> A tip can be used when you want to give advice
-> related to a certain content.
-{: .block-tip }
+**实变函数**
+读PhD话建议选。但是我当时没有这么做。原因之一是广为流传的“实变函数学十遍”，足以说明这门课的难度，我没选也是基于GPA的考虑。我当时是根据[上海交通大学的实变函数课程](https://www.bilibili.com/video/BV1iW41147Pb?spm_id_from=333.999.0.0)自学的。这个课程是为经济系的学生开设所以难度不是很大。
 
-```markdown
-> ##### WARNING
->
-> This is a warning, and thus should
-> be used when you want to warn the user
-{: .block-warning }
-```
+**测度论**
+读PhD话建议选。我自己选过，最后勉强优秀。我当时也是比较幸运，授课老师讲课非常细致，所以感觉收获很大，又因为我以及自学过实变函数，所以至少到积分那里我听得不是很困难。所用教材为《测度论与概率论基础》，也是本不错的教材。
 
-> ##### WARNING
->
-> This is a warning, and thus should
-> be used when you want to warn the user
-{: .block-warning }
+**泛函分析**
+读PhD话建议选。我没选过，这学期本来准备旁听但是因为这学期事情太多没能坚持下来。所用教材为《泛函分析讲义》，此书有配套的习题集和答案。此外，[内蒙古大学的公开课](https://www.bilibili.com/video/BV1zW411s7o8?spm_id_from=333.999.0.0)质量很高，而且不是很难。
 
-```markdown
-> ##### DANGER
->
-> This is a danger zone, and thus should
-> be used carefully
-{: .block-danger }
-```
+总而言之，微积分，线性代数，概率统计是申请PhD必备的，甚至有些学校也会要求申请硕士的学生修过这些课程，所以请务必选修并且尽量取得好成绩。实变、测度、泛函会对申请有帮助，很多学校的PhD项目都会在课程要求一栏中提到建议修过“实分析”，这个实分析主要对应的就是实变函数或者测度论中的内容。所以尽量选一门。
 
-> ##### DANGER
->
-> This is a danger zone, and thus should
-> be used carefully
-{: .block-danger }
+#### -3.2 统计学课
+统计学的课程其实都不是必须，但是如果申请PhD项目的话还是尽量多一些这方面的课程比较好。一是体现你为日后的生统学习和研究做了充足准备，二是证明自己在统计学方面的学习能力。
+
+**数理统计**
+没上过数院的数理统计，因为我已经上了概统以及下面提到的《高级计量经济学1》。推荐Casella&Berger的《Statistical Inference》。[Perlman的这份讲义](https://stat.uw.edu/about-us/people/michael-perlman)也不错。
+
+**回归分析**
+此处所说的回归分析是一类课程。既包括数院开设的《应用回归分析》，也包括国发院的计量课程。鉴于听说数院的回归分析课程质量一般，我强烈建议选修一门高级计量经济学，尤其是新结构经济学研究院开设的《高级计量经济学》1和2。这个系列1的课程内容主要是本科概率论和数理统计课程的加强版，例如，概率论涉及到了一些测度论的内容，数理统计涉及了Casella&Berger书上的许多内容还有部分大样本理论，非常适合在学习了本科《概率统计》后进行学习，作为往高等概率论和高等数理统计的过渡。新结构的《高级计量经济学2》基本就是回归分析。这两门课老师都非常耐心，认真仔细，干活多，能学到很多知识，更重要的是课程难度不是很大，所以强烈建议选修。此外，洪永淼的[《高级计量经济学》](https://www.bilibili.com/video/BV1pW41117rs?spm_id_from=333.337.search-card.all.click)质量也非常高。
+
+**多元统计**
+包括数院本科生的《应用多元统计》和光华管理学院的《高等多元统计分析》。我上过后者，还可以，据说前者的课程质量也不错。网上可以找到[台湾交通大学的多元统计课程](https://www.bilibili.com/video/BV1s4411h7w2?spm_id_from=333.999.0.0)，讲的非常好。
+
+**大样本理论**
+我之前选修过光华管理学院的《大样本统计理论》，使用的教材是van der Vaart的《asymptotic statistics》。但是现在似乎不开了。我个人感觉有点难。大样本有一个稍微简单一些的书Lehmann的《Elements of Large-Sample Theory》，还有Ferguson的《A Course in Large Sample Theory》，b站上有一个[UCLA的网课](https://www.bilibili.com/video/BV1bh411Q7S6?spm_id_from=333.999.0.0)用的就是这两本。此外，[Penn State](https://personal.psu.edu/drh20/asymp/lectures/asymp.pdf)的这份讲义也是非常好的。
+
+**时间序列分析**
+此类课程可以选修光华管理学院的《时间序列分析》或者国发院的《时间序列计量经济学》。我上过前者，课程质量还不错，是本研课但是绝大多数感觉都是本科生。后者我看过讲义，似乎有些难。
+
+**非参数、半参数统计**
+包括数院的《非参数统计》、光华的《高级计量经济专题》、数院的《半参数模型》。数院的《非参数统计》据说课程质量不高，所以我当时没选。我上过光华的《高级计量经济专题》，半参部分主要涉及了核密度估计、核回归，半参约等于0，还讲了半学期的M-估计和GMM，这门课最大的收获就是让我发现了Hayashi的《Econometrics》第7章竟然写的那么好，想学习M估计和GMM的不要错过。《半参数模型》是这学期新开设，有[课程网站](https://www.math.pku.edu.cn/teachers/mwfy/Teaching/Semiparametrics/Semiparametrics.html)。内容挺好就是不知道难度如何。
+
+**因果推断**
+似乎只有数院的《统计和生物统计中的因果推断》，讲的是Imbens&Rubin的那本书，还行吧，不是很难，对因果推断感兴趣可以选一选。此外因果推断还推荐Hernan&Robins的[《Causal Inference：What if》](https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/)，个人感觉比Imbens和Rubin的那本好。《Mostly Harmless Econometrics》个人不是很喜欢。
+
+**统计计算**
+数院的[《统计模型和计算方法》](https://zcrabbit.github.io/courses/smcm-f21.html)是一门不可多得的好课，我选修过，内容很多，作业量较大，但是感觉坚持一学期下来还是很有收获的，而且被逼着用了一把python（虽然现在已经忘完了）。所以很推荐。
+
+**贝叶斯统计**
+和统计计算一样由张成老师开设，没上过但是根据我上统计计算的经验，这门课应该也还不错，课程内容和统计计算的重叠度很高（主要是MCMC那里）。可以参考[课程网站](https://zcrabbit.github.io/courses/btc-s22.html)。
+
+**高等统计学**
+数院博士生的必修课，使用的教材是邵军的《mathematical statistics》，虽然这本书很难但是考试似乎也没那么难。有时间可以学一学，我当时是选了的。其实对于高等统计推断Keener的《Theoretical Statistics》和[Geer阿姨的Notes](https://stat.ethz.ch/lectures/as20/mathstat.php#course_materials)感觉更好些。
+
+**高等统计学2**
+用了van der Vaart的《asymptotic statistics》以及Wainwright的《High-Dimensional Statistics》，讲了经验过程，非参和半参理论，以及高维统计。听过几节但是后来放弃了，感觉反正读博期间也要学。
+
+**高等概率论**
+也是觉得反正以后会学所以就没有去选。用的教材是[PTE](https://services.math.duke.edu/~rtd/PTE/PTE5_011119.pdf)。
+
+**统计学习**
+没上过，见[课程网站](https://www.math.pku.edu.cn/teachers/linw/2892f21.html)。一本极好的入门书是[《An Introduction to Statistical Learning》](https://www.statlearning.com/)。
+
+**高维概率论**
+其实严格来说不算是统计课。用的是Vershynin的[《High-Dimensional Probability》](https://www.math.uci.edu/~rvershyn/papers/HDP-book/HDP-book.html)。我选修过，书是好书，但是我是学不来的。
+
+**广义线性模型**
+只作为公卫研究生必修课上过，不想多评价。数院的《现当代统计模型》也有涉及，但是此课程难度较大且似乎只对数院博士生开放，这门课使用的教材是《Linear models and Generalizations》，[lyt的个人主页](http://scholar.pku.edu.cn/lity/classes/21s-statmodel-ta)上有关于这门课的介绍。这门课的部分内容在《高级计量经济学》中也有涉及（主要是Logistic regression和Poisson Regression）。
+
+**纵向数据分析**
+北大似乎没有类似的课程。我也没系统学过。但是[北卡州立的这门课](https://www4.stat.ncsu.edu/~davidian/st732/)似乎还不错，我参考过他们的讲义。
+
+**其他**
+包括生存分析、抽样调查、实验设计等等，因为不是很感兴趣，没有学过。
+
+**暑期学校**北大统计中心和生物统计系每年都会举办暑期学校，非常值得参加。统计中心去年请的UPenn的[Eric Tchetgen Tchetgen](https://statistics.wharton.upenn.edu/profile/ett/)讲的半参统计，生统系请了北卡的两位老师讲的生存分析，质量都比较高。
+
+
+
+2022/4/10日于北京大学医学部
+
+------

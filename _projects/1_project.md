@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Probability and sttaistics
+description: A course that I used to TA in Peking university
 img: assets/img/pbs.png
 importance: 1 
 category: Teaching assistant

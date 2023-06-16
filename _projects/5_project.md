@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Graduation
+title: Photos
 description: Some cool photos I used to take
 img: assets/img/seattle.jpg
 importance: 3

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 生物统计课程学习经验总结
+title: 一些关于生物统计课程学习的建议
 date: 2023-05-12 15:53:00-0400
-description: an example of a blog post with custom blockquotes
+description: 
 categories: sample-posts blockquotes
 giscus_comments: true
 related_posts: true

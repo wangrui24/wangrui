@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: A growing collection of your cool projects.
+description: Courses that I used to teach or TA.
 nav: true
 nav_order: 3
 display_categories: [Teaching assistant, Teaching]

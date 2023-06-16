@@ -12,13 +12,13 @@ category: Teaching assistant
 
 ### Course Materials
 #### Exercise class
-[Lecture 4](http://wangrui24.github.io/assets/teaching/Lecture04.pdf)
-[Lecture 6](http://wangrui24.github.io/files/teaching/Lecture06.pdf)
-[Lecture 7](http://wangrui24.github.io/files/teaching/Lecture07.pdf)
-[Lecture 8](http://wangrui24.github.io/files/teaching/Lecture08.pdf)
-[Lecture 10](http://wangrui24.github.io/files/teaching/Lecture10.pdf)
-[Lecture 13](http://wangrui24.github.io/files/teaching/Lecture13.pdf)
-[Lecture 14](http://wangrui24.github.io/files/teaching/Lecture14.pdf)
+[Lecture 4](http://wangrui24.github.io/assets/teaching/statistics/Lecture04.pdf)
+[Lecture 6](http://wangrui24.github.io/assets/teaching/statistics/Lecture06.pdf)
+[Lecture 7](http://wangrui24.github.io/assets/teaching/statistics/Lecture07.pdf)
+[Lecture 8](http://wangrui24.github.io/assets/teaching/statistics/Lecture08.pdf)
+[Lecture 10](http://wangrui24.github.io/assets/teaching/statistics/Lecture10.pdf)
+[Lecture 13](http://wangrui24.github.io/assets/teaching/statistics/Lecture13.pdf)
+[Lecture 14](http://wangrui24.github.io/assets/teaching/statistics/Lecture14.pdf)
 
 ### Instructor
 [Xiaobao Zhu](http://math.ruc.edu.cn/szdw/zgjs/1c97c4bb20264007b091502ba41a12f3.htm)

@@ -3,7 +3,7 @@ layout: post
 title: 一些关于生物统计课程学习的建议
 date: 2023-05-12 15:53:00-0400
 description: 
-categories: sample-posts blockquotes
+categories: public health
 giscus_comments: true
 related_posts: true
 ---

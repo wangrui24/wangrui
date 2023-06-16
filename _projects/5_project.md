@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
+title: Graduation
+description: Some cool photos I used to take
 img: assets/img/1.jpg
 importance: 3
 category: fun

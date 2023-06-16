@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Probability and sttaistics
+title: Probability and statistics
 description: A course that I used to TA in Peking university
 img: assets/img/pbs.png
 importance: 1 

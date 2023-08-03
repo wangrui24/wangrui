@@ -24,4 +24,4 @@ I am a first year PhD student in Biostatistics, University of Washington. I am w
 
 Prior to coming to UW,  I obtained my master degree from the Peking University. I hold bachelor degrees in medicine and economics from Peking University. I am interested in causal inference, and its applications in public health and social science.
 
-I am originally from Duanyuan, a small town in Huaibei, Anhui province, Eastern China. When not working, I enjoy playing tennis, watching movies (especially art movies) and spending time with friends.
+I am originally from a small town Anhui province, Eastern China. When not working, I enjoy playing tennis, watching movies (especially art movies) and spending time with friends.

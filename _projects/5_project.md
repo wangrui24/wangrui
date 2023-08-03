@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Non-invasive tools for detecting subclinical atherosclerotic cardiovascular disease
-description:  New research findings
+title: Subclinical ASCVD
+description:  Non-invasive tools for detecting subclinical atherosclerotic cardiovascular disease
 img: assets/img/cac.jpg
 importance: 3
 category: research

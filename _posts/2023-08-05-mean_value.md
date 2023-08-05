@@ -23,9 +23,28 @@ $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 ```
 The proof of the general mean value theorem can be found [here]([https://link-url-here.org](http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html)http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html). 
 
-However, for vector valued function, there is direct extension of mean-value theorem. 
+However, for vector valued function, there is direct extension of mean-value theorem. Following the paper listed in the end of this post, we called this Nonexistent mean value theorem (which is wrong!)
 
 
+```{theorem, label, name="Nonexistent mean value theorem (which is wrong!)"}
+Suppose that $O\subset mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
+$$ f(b)-f(a) = [f'(c)]^T(b-a) $$
+```
+
+The reference paper also gives some examples that misuse this nonexistent theorem, including the famous semiparametric theory and missing data book. However, even though the nonexistent mean value theorem is wrong in general, there are two similar theorem can be used.
+
+```{theorem, label, name="First-order Taylor’s expansion"}
+Suppose that $O\subset mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, we have
+$$ f(b)-f(a) = [f'(a)]^T(b-a) + o(\Vert b-a \Vert) $$
+```
+This formula follows from the definition of differentiability. Another theorem, which can be found in the famous 'A course in large sample theory' book,
+
+```{theorem, label, name="Multivariate mean value theorem"}
+Suppose that  $f:\mathbb{R}^p\rightarrow \mathbb{R}^q$ is a differentiable function and the derivative $Df$ is continuous in a neighborhood $\{x:\Vert x-x_0 \Vert<r\}$ of $x_0$, then for all $t$ with $\Vert t \Vert\leq r$
+$$ f(x_0+t)-f(x_0) = \int_{0}^1 Df(x_0+ut)du \cdot t$$
+```
 
 
+Reference:
+Feng, C., Wang, H., Han, Y., Xia, Y., & Tu, X. M. (2013). The mean value theorem and Taylor’s expansion in statistics. The American Statistician, 67(4), 245-248.
 ------

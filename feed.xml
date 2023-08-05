@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://wangrui24.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wangrui24.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-05T18:32:17+00:00</updated><id>https://wangrui24.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-</subtitle><entry><title type="html">Mean_value</title><link href="https://wangrui24.github.io/blog/2023/mean_value/" rel="alternate" type="text/html" title="Mean_value" /><published>2023-08-05T00:00:00+00:00</published><updated>2023-08-05T00:00:00+00:00</updated><id>https://wangrui24.github.io/blog/2023/mean_value</id><content type="html" xml:base="https://wangrui24.github.io/blog/2023/mean_value/"><![CDATA[<p>1</p>]]></content><author><name></name></author><summary type="html"><![CDATA[1]]></summary></entry><entry><title type="html">一些关于生物统计课程学习的建议</title><link href="https://wangrui24.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="一些关于生物统计课程学习的建议" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://wangrui24.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://wangrui24.github.io/blog/2023/custom-blockquotes/"><![CDATA[<h2 id="生物统计课程学习经验总结">生物统计课程学习经验总结</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://wangrui24.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wangrui24.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-08-05T18:46:21+00:00</updated><id>https://wangrui24.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">一些关于生物统计课程学习的建议</title><link href="https://wangrui24.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="一些关于生物统计课程学习的建议" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://wangrui24.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://wangrui24.github.io/blog/2023/custom-blockquotes/"><![CDATA[<h2 id="生物统计课程学习经验总结">生物统计课程学习经验总结</h2>
 
 <h3 id="-1-前言">-1. 前言</h3>
 <p>此文的主要写作对象是北京大学公共卫生学院有志于学习生物统计学以及有意向在生物统计学科读博深造的同学。如果你是国内其他学校生物医学类专业的本科生且对生物统计感兴趣，此文可能对你也会有所帮助。本文也会略微涉及到和北美生统PhD申请有关的内容，但是由于中文互联网上已经有较好的<a href="https://zhuanlan.zhihu.com/p/475982417">选校指南</a>，在这方面不会做过多叙述。</p>
@@ -104,4 +104,21 @@
 
 <p>2022/4/10日于北京大学医学部</p>
 
-<hr />]]></content><author><name></name></author><category term="health" /><summary type="html"><![CDATA[生物统计课程学习经验总结]]></summary></entry></feed>
+<hr />]]></content><author><name></name></author><category term="health" /><summary type="html"><![CDATA[生物统计课程学习经验总结]]></summary></entry><entry><title type="html">Nonexistent mean value theorem</title><link href="https://wangrui24.github.io/blog/2023/mean_value/" rel="alternate" type="text/html" title="Nonexistent mean value theorem" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://wangrui24.github.io/blog/2023/mean_value</id><content type="html" xml:base="https://wangrui24.github.io/blog/2023/mean_value/"><![CDATA[<h2 id="nonexistent-mean-value-theorem">Nonexistent mean value theorem</h2>
+
+<p>Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:</p>
+
+<p>```{theorem, label, name=”Mean value theorem”}
+Suppose that $O\subset mathbb{R}$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any interval $[a,b]\subset O$, there exists $c\in [a,b]$ such that
+\(f(b)-f(a) = f'(c)(b-a)\)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+This mean value theorem can be extended to the case where $O$ is a subset of $\mathbb{R}^p$, we denote it as general mean value theorem
+```{theorem, label, name="General mean value theorem"}
+Suppose that $O\subset mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
+$$ f(b)-f(a) = [f'(c)]^T(b-a) $$
+</code></pre></div></div>
+<p>The proof of the general mean value theorem can be found <a href="[https://link-url-here.org](http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html)http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html">here</a>.</p>
+
+<p>However, for vector valued function, there is direct extension of mean-value theorem.</p>
+
+<hr />]]></content><author><name></name></author><category term="math" /><summary type="html"><![CDATA[Nonexistent mean value theorem]]></summary></entry></feed>

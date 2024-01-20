@@ -20,7 +20,7 @@ $$ f(b)-f(a) = f'(c)(b-a) $$
 
 This mean value theorem can be extended to the case where $O$ is a subset of $\mathbb{R}^p$, we denote it as general mean value theorem
 ## General mean value theore
-Suppose that $O \subset mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
+Suppose that $O \subset mathbb{R} ^p$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
 
 $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 

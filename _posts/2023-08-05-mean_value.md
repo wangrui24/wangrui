@@ -26,7 +26,7 @@ Suppose that $O \subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}
 
 $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 
-The proof of the general mean value theorem can be found [here]([https://link-url-here.org](http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html)http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html). 
+The proof of the general mean value theorem can be found [here](http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html)http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html). 
 
 However, for vector valued function, there is direct extension of mean-value theorem. Following the paper listed in the end of this post, we called this Nonexistent mean value theorem (which is wrong!)
 

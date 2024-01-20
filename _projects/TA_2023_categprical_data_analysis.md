@@ -2,7 +2,7 @@
 layout: page
 title: Categorical Data Analysis in Epidemiology
 description: A course that I used to TA in University Washington
-img: assets/img/pbs.png
+img: assets/img/course/cate.png
 importance: 1 
 category: Teaching assistant
 ---

@@ -14,6 +14,7 @@ Mean value theorem is a well known and widely-used theorem in statistical litera
 ## Mean value theorem
 
 Suppose that $O\subset mathbb{R}$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any interval $[a,b]\subset O$, there exists $c\in [a,b]$ such that
+
 $$ f(b)-f(a) = f'(c)(b-a) $$
 
 

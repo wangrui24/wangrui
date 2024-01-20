@@ -4,7 +4,7 @@ title: Nonexistent mean value theorem
 date: 2023-05-12 15:53:00-0400
 description: 
 categories: math
-giscus_comments: true
+giscus_comments: true 
 related_posts: true
 ---
 ## Nonexistent mean value theorem

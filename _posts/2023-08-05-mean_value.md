@@ -9,6 +9,8 @@ related_posts: true
 ---
 ## Nonexistent mean value theorem
 
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+
 Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:
 
 **Mean value theorem** 
@@ -29,7 +31,6 @@ $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 The proof of the general mean value theorem can be found [here](http://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.4.html).
 
 However, for vector valued function, there is direct extension of mean-value theorem. Following the paper listed in the end of this post, we called this Nonexistent mean value theorem (which is wrong!)
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
 **Nonexistent mean value theorem** 
 

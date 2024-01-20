@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://wangrui24.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wangrui24.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-01-20T19:31:44+00:00</updated><id>https://wangrui24.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://wangrui24.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://wangrui24.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-01-20T19:32:18+00:00</updated><id>https://wangrui24.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">一些关于生物统计课程学习的建议</title><link href="https://wangrui24.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="一些关于生物统计课程学习的建议" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://wangrui24.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://wangrui24.github.io/blog/2023/custom-blockquotes/"><![CDATA[<h2 id="生物统计课程学习经验总结">生物统计课程学习经验总结</h2>
 
 <h3 id="-1-前言">-1. 前言</h3>
@@ -108,15 +108,15 @@
 
 <p>Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:</p>
 
-<p>** Mean value theorem **</p>
+<p><strong>Mean value theorem</strong></p>
 
 <p>Suppose that $O\subset \mathbb{R}$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any interval $[a,b]\subset O$, there exists $c\in [a,b]$ such that</p>
 
 \[f(b)-f(a) = f'(c)(b-a)\]
 
-<p>This mean value theorem can be extended to the case where $O$ is a subset of $\mathbb{R}^p$, we denote it as general mean value theorem</p>
-<h2 id="general-mean-value-theore">General mean value theore</h2>
-<p>Suppose that $O \subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that</p>
+<p>This mean value theorem can be extended to the case where $O$ is a subset of $\mathbb{R}^p$, we denote it as general mean value theorem
+<strong>General mean value theorem</strong>
+Suppose that $O \subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that</p>
 
 \[f(b)-f(a) = [f'(c)]^T(b-a)\]
 
@@ -124,22 +124,22 @@
 
 <p>However, for vector valued function, there is direct extension of mean-value theorem. Following the paper listed in the end of this post, we called this Nonexistent mean value theorem (which is wrong!)</p>
 
-<h2 id="nonexistent-mean-value-theorem-1">Nonexistent mean value theorem</h2>
-<p>Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that</p>
+<p><strong>Nonexistent mean value theorem</strong> 
+Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that</p>
 
 \[f(b)-f(a) = [f'(c)]^T(b-a)\]
 
 <p>The reference paper also gives some examples that misuse this nonexistent theorem, including the famous semiparametric theory and missing data book. However, even though the nonexistent mean value theorem is wrong in general, there are two similar theorem can be used.</p>
 
-<h2 id="first-order-taylors-expansion">First-order Taylor’s expansion</h2>
-<p>Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, we have</p>
+<p><strong>First-order Taylor’s expansion</strong>
+Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, we have</p>
 
 \[f(b)-f(a) = [f'(a)]^T(b-a) + o(\Vert b-a \Vert)\]
 
 <p>This formula follows from the definition of differentiability. Another theorem, which can be found in the famous ‘A course in large sample theory’ book,</p>
 
-<h2 id="multivariate-mean-value-theorem">Multivariate mean value theorem</h2>
-<p>Suppose that  $f:\mathbb{R}^p\rightarrow \mathbb{R}^q$ is a differentiable function and the derivative $Df$ is continuous in a neighborhood ${x: \Vert x-x_0 \Vert &lt; r}$ of $x_0$, then for all $t$ with $\Vert t \Vert\leq r$</p>
+<p><strong>Multivariate mean value theorem</strong>
+Suppose that  $f:\mathbb{R}^p\rightarrow \mathbb{R}^q$ is a differentiable function and the derivative $Df$ is continuous in a neighborhood ${x: \Vert x-x_0 \Vert &lt; r}$ of $x_0$, then for all $t$ with $\Vert t \Vert\leq r$</p>
 
 \[f(x_0+t)-f(x_0) = \int_{0}^1 Df(x_0+ut)du \cdot t\]
 

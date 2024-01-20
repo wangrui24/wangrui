@@ -45,7 +45,7 @@ $$ f(b)-f(a) = [f'(a)]^T(b-a) + o(\Vert b-a \Vert) $$
 This formula follows from the definition of differentiability. Another theorem, which can be found in the famous 'A course in large sample theory' book,
 
 ## Multivariate mean value theorem
-Suppose that  $f:\mathbb{R}^p\rightarrow \mathbb{R}^q$ is a differentiable function and the derivative $Df$ is continuous in a neighborhood $ \{x: \Vert x-x_0 \Vert<r\} $ of $x_0$, then for all $t$ with $\Vert t \Vert\leq r$
+Suppose that  $f:\mathbb{R}^p\rightarrow \mathbb{R}^q$ is a differentiable function and the derivative $Df$ is continuous in a neighborhood ${x: \Vert x-x_0 \Vert<r} $ of $x_0$, then for all $t$ with $\Vert t \Vert\leq r$
 
 $$ f(x_0+t)-f(x_0) = \int_{0}^1 Df(x_0+ut)du \cdot t$$
 

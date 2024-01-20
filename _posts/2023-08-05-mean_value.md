@@ -30,7 +30,7 @@ However, for vector valued function, there is direct extension of mean-value the
 
 
 ## Nonexistent mean value theorem 
-Suppose that $O\subset mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
+Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
 
 $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 
@@ -38,7 +38,7 @@ $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 The reference paper also gives some examples that misuse this nonexistent theorem, including the famous semiparametric theory and missing data book. However, even though the nonexistent mean value theorem is wrong in general, there are two similar theorem can be used.
 
 ## First-order Taylor’s expansion
-Suppose that $O\subset mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, we have
+Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, we have
 
 $$ f(b)-f(a) = [f'(a)]^T(b-a) + o(\Vert b-a \Vert) $$
 

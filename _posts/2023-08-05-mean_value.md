@@ -8,7 +8,7 @@ giscus_comments: true
 related_posts: true
 ---
 ## Nonexistent mean value theorem
-
+This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:
 
 **Mean value theorem** 

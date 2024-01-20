@@ -11,7 +11,7 @@ related_posts: true
 
 Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:
 
-## Mean value theorem
+** Mean value theorem **
 
 Suppose that $O\subset \mathbb{R}$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any interval $[a,b]\subset O$, there exists $c\in [a,b]$ such that
 

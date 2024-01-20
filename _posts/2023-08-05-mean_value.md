@@ -8,21 +8,20 @@ giscus_comments: true
 related_posts: true
 ---
 ## Nonexistent mean value theorem
-This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:
 
 **Mean value theorem** 
 
-Suppose that $O\subset \mathbb{R}$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any interval $`[a,b]\subset O`$, there exists $`c\in [a,b]`$ such that
+Suppose that $O\subset \mathbb{R}$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any interval $[a,b]\subset O$, there exists $c\in [a,b]$ such that
 
 $$ f(b)-f(a) = f'(c)(b-a) $$
 
 
-This mean value theorem can be extended to the case where $`O`$ is a subset of $`\mathbb{R}^p`$, we denote it as general mean value theorem
+This mean value theorem can be extended to the case where $O$ is a subset of $\mathbb{R}^p$, we denote it as general mean value theorem
 
 **General mean value theorem**
 
-Suppose that $`O \subset \mathbb{R}^p`$ is an open set, $`f:O\rightarrow \mathbb{R}`$ is a differentiable function. Then for any two points $`a,b \in O`$, suppose the line segment is a subset of $`O`$, there exists $`c`$ belonging to the line segment such that
+Suppose that $O \subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
 
 $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 
@@ -32,7 +31,7 @@ However, for vector valued function, there is direct extension of mean-value the
 
 **Nonexistent mean value theorem** 
 
-Suppose that $`O\subset \mathbb{R}^p`$ is an open set, $`f:O\rightarrow \mathbb{R}^q`$ is a differentiable function. Then for any two points $`a,b \in O`$, suppose the line segment is a subset of $`O`$, there exists $`c`$ belonging to the line segment such that
+Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, suppose the line segment is a subset of $O$, there exists $c$ belonging to the line segment such that
 
 $$ f(b)-f(a) = [f'(c)]^T(b-a) $$
 
@@ -41,7 +40,7 @@ The reference paper also gives some examples that misuse this nonexistent theore
 
 **First-order Taylor’s expansion**
 
-Suppose that $`O\subset \mathbb{R}^p`$ is an open set, $`f:O\rightarrow \mathbb{R}^q`$ is a differentiable function. Then for any two points $`a,b \in O`$, we have
+Suppose that $O\subset \mathbb{R}^p$ is an open set, $f:O\rightarrow \mathbb{R}^q$ is a differentiable function. Then for any two points $a,b \in O$, we have
 
 $$ f(b)-f(a) = [f'(a)]^T(b-a) + o(\Vert b-a \Vert) $$
 
@@ -49,7 +48,7 @@ This formula follows from the definition of differentiability. Another theorem, 
 
 **Multivariate mean value theorem**
 
-Suppose that  $`f:\mathbb{R}^p\rightarrow \mathbb{R}^q`$ is a differentiable function and the derivative $`Df`$ is continuous in a neighborhood $`\{x: \Vert x-x_0 \Vert < r\}`$ of $`x_0`$, then for all $`t`$ with $`\Vert t \Vert\leq r`$
+Suppose that  $f:\mathbb{R}^p\rightarrow \mathbb{R}^q$ is a differentiable function and the derivative $Df$ is continuous in a neighborhood $\{x: \Vert x-x_0 \Vert < r\}$ of $x_0$, then for all $t$ with $\Vert t \Vert\leq r$
 
 $$ f(x_0+t)-f(x_0) = \int_{0}^1 Df(x_0+ut)du \cdot t$$
 

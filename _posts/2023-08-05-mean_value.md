@@ -8,7 +8,7 @@ giscus_comments: true
 related_posts: true
 ---
 ## Nonexistent mean value theorem
-Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:
+**(Reload this page if the fomula can't be shown properly).** Mean value theorem is a well known and widely-used theorem in statistical literature. The most common mean-value theorem in standard calculus textbook is stated as follows:
 
 **Mean value theorem** 
 

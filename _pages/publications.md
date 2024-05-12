@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications and preprints by categories in reversed chronological order.  
+description: publications and preprints by categories in reversed chronological order.  Check out my Google scholar page for full publication list.
 years: [2024,2023,2022,2021]
 nav: true
 nav_order: 1
@@ -10,8 +10,7 @@ nav_order: 1
 <!-- _pages/publications.md -->
 <div class="publications">
 
-  
-Full publication list can be found in my [Google scholar](https://scholar.google.com/citations?user=OZeSbMEAAAAJ&hl=zh-CN).
+[Google Scholar](https://scholar.google.com/citations?user=OZeSbMEAAAAJ&hl=zh-CN)
 
 
 {%- for y in page.years %}

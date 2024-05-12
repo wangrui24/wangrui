@@ -1,6 +1,8 @@
 "Statistics":
-  url: 
   color: "#00369f"
+
+  "Public Health":
+  color: "#009f36"
 
 #PhysRev":
 #  url: https://journals.aps.org/

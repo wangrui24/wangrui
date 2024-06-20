@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper published: Thoracic versus coronary calcification for atherosclerotic cardiovascular disease events prediction
+New paper published: Thoracic versus coronary calcification for atherosclerotic cardiovascular disease events prediction.
